@@ -1,5 +1,8 @@
 pandas
-torch
 transformers
-evaluate
+datasets
+rouge-score
+beautifulsoup4
+nltk
+gensim
 streamlit
