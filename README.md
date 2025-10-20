@@ -51,7 +51,7 @@ streamlit run app.py
 Then open the local URL (usually http://localhost:8501/) in your browser.
 
 ## Try the App Online
-You can use the app directly here: [Review Predictor](https://reviewpredictor.streamlit.app/)<br>
+You can use the app directly here: [Review Predictor](https://concise-summary.streamlit.app/)<br>
 Simply paste any long text or news article and click **Summarize** to generate an abstract summary.
 
 ## 💡 Features
