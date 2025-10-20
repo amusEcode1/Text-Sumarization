@@ -30,11 +30,11 @@ st.set_page_config(
 
 st.title("🧠 Text Summarizer App")
 st.markdown(
-    "Choose between **Abstractive (BART)** and **Extractive (PyTextRank)** summarization."
+    "Choose between **Abstractive (T5)** and **Extractive (PyTextRank)** summarization."
 )
 
 # User Inputs
-choice = st.selectbox("Select Summarization Type", ["Abstractive (BART)", "Extractive (PyTextRank)"])
+choice = st.selectbox("Select Summarization Type", ["Abstractive (T5)", "Extractive (PyTextRank)"])
 text = st.text_area("Enter the text you want to summarize:", height=250)
 
 # Abstractive sliders
