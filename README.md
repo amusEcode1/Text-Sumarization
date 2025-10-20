@@ -24,14 +24,14 @@ The dataset used is the CNN-DailyMail News Dataset (300,000+ samples).
 
 ## 🧠 Tech Stack & Tools: 
 - **Python Libraries**:  
-  `Pandas`, `NLTK`, `BeautifulSoup`, `pytextrank`, `Datasets`, `rouge-score`, `Transformers`
+  `Pandas`, `NLTK`, spacy`, `BeautifulSoup`, `pytextrank`, `Datasets`, `rouge-score`, `Transformers`
 - **Deployment**: Streamlit for interactive prediction  
 - **Others**: GitHub / Google Colab / Kaggle for experimentation
 
 ## 📦 Dependencies
 Before running this project locally, ensure the following are installed:
 ```sh
-pip install pandas datasets nltk beautifulsoup4 pytextrank rouge-score transformers streamlit
+pip install pandas datasets nltk spacy beautifulsoup4 pytextrank rouge-score transformers streamlit
 ```
 
 ## Installing
