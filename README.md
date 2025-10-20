@@ -24,7 +24,7 @@ The dataset used is the CNN-DailyMail News Dataset (300,000+ samples).
 
 ## 🧠 Tech Stack & Tools: 
 - **Python Libraries**:  
-  `Pandas`, `NLTK`, spacy`, `BeautifulSoup`, `pytextrank`, `Datasets`, `rouge-score`, `Transformers`
+  `Pandas`, `NLTK`, `spacy`, `BeautifulSoup`, `pytextrank`, `Datasets`, `rouge-score`, `Transformers`
 - **Deployment**: Streamlit for interactive prediction  
 - **Others**: GitHub / Google Colab / Kaggle for experimentation
 
@@ -65,9 +65,6 @@ Simply paste any long text or news article and click **Summarize** to generate a
 ```
 Text-Summarization-PreTrained-Models/
 ├── app.py
-├── summarizer_tokenizer/
-│   ├── ctokenizer.json
-│   ├── ...
 ├── requirements.txt
 └── README.md
     
