@@ -6,8 +6,8 @@ import pytextrank
 # Load Fine-Tuned Model & Tokenizer
 @st.cache_resource
 def load_abstractive_model():
-    tokenizer = AutoTokenizer.from_pretrained("amusEcode/summarizer-tokenizer")
-    model = AutoModelForSeq2SeqLM.from_pretrained("amusEcode/summarizer_model")
+    tokenizer = AutoTokenizer.from_pretrained("amusEcode/summarizer-tokenizer/summarizer-tokenizer")
+    model = AutoModelForSeq2SeqLM.from_pretrained("amusEcode/summarizer_model/summarizer_model")
     return tokenizer, model
 
 tokenizer, model = load_abstractive_model()
